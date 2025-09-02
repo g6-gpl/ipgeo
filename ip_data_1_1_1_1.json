@@ -1,0 +1,92 @@
+{
+  "combined_data": {
+    "ip_address": "1.1.1.1",
+    "timestamp": 1756787242.4638095,
+    "sources": {
+      "ipapi.com": {
+        "source": "ipapi.com",
+        "latitude": "39.6413688659668",
+        "longitude": "-104.95458984375",
+        "country": "United States (US)",
+        "city": "Englewood (Colorado)",
+        "zip": "80113",
+        "isp": "Cloudflare",
+        "asn": "13335"
+      },
+      "ipinfo.io": {
+        "source": "ipinfo.io",
+        "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://ipinfo.io/1.1.1.1\", waiting until \"load\"\n"
+      },
+      "db-ip.com": {
+        "source": "db-ip.com",
+        "error": "Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\".ip-info-table\") to be visible\n"
+      },
+      "whatismyipaddress.com": {
+        "source": "whatismyipaddress.com",
+        "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://whatismyipaddress.com/ip/1.1.1.1\", waiting until \"load\"\n"
+      }
+    }
+  },
+  "comparison": {
+    "ip_address": "1.1.1.1",
+    "comparison": {
+      "country": {
+        "ipapi.com": "United States (US)"
+      },
+      "city": {
+        "ipapi.com": "Englewood (Colorado)"
+      },
+      "isp": {
+        "ipapi.com": "Cloudflare"
+      },
+      "latitude": {
+        "ipapi.com": "39.6413688659668"
+      },
+      "longitude": {
+        "ipapi.com": "-104.95458984375"
+      }
+    },
+    "consistency": {
+      "country": {
+        "unique_values": 1,
+        "values": {
+          "ipapi.com": "United States (US)"
+        },
+        "is_consistent": true
+      },
+      "city": {
+        "unique_values": 1,
+        "values": {
+          "ipapi.com": "Englewood (Colorado)"
+        },
+        "is_consistent": true
+      },
+      "isp": {
+        "unique_values": 1,
+        "values": {
+          "ipapi.com": "Cloudflare"
+        },
+        "is_consistent": true
+      },
+      "latitude": {
+        "unique_values": 1,
+        "values": {
+          "ipapi.com": "39.6413688659668"
+        },
+        "is_consistent": true
+      },
+      "longitude": {
+        "unique_values": 1,
+        "values": {
+          "ipapi.com": "-104.95458984375"
+        },
+        "is_consistent": true
+      }
+    },
+    "summary": {
+      "total_sources": 4,
+      "consistent_fields": 5,
+      "total_fields": 5
+    }
+  }
+}

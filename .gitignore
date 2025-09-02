@@ -1,0 +1,32 @@
+# Python bytecode files
+*.pyc
+__pycache__/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# IDE/Editor specific files
+.idea/
+.vscode/
+
+# Dependency management files
+Pipfile.lock
+poetry.lock
+
+# Log files
+*.log
+
+# Database files
+*.sqlite3
+
+# Temporary files
+*~
+
+# Sensitive data/configuration files
+.env
+
+files/
+/models
+/screenshots

@@ -1,0 +1,92 @@
+{
+  "combined_data": {
+    "ip_address": "8.8.8.8",
+    "timestamp": 1756787211.2307677,
+    "sources": {
+      "ipapi.com": {
+        "source": "ipapi.com",
+        "latitude": "37.38801956176758",
+        "longitude": "-122.07431030273438",
+        "country": "United States (US)",
+        "city": "Mountain View (California)",
+        "zip": "94041",
+        "isp": "Google",
+        "asn": "15169"
+      },
+      "ipinfo.io": {
+        "source": "ipinfo.io",
+        "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://ipinfo.io/8.8.8.8\", waiting until \"load\"\n"
+      },
+      "db-ip.com": {
+        "source": "db-ip.com",
+        "error": "Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\".ip-info-table\") to be visible\n"
+      },
+      "whatismyipaddress.com": {
+        "source": "whatismyipaddress.com",
+        "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://whatismyipaddress.com/ip/8.8.8.8\", waiting until \"load\"\n"
+      }
+    }
+  },
+  "comparison": {
+    "ip_address": "8.8.8.8",
+    "comparison": {
+      "country": {
+        "ipapi.com": "United States (US)"
+      },
+      "city": {
+        "ipapi.com": "Mountain View (California)"
+      },
+      "isp": {
+        "ipapi.com": "Google"
+      },
+      "latitude": {
+        "ipapi.com": "37.38801956176758"
+      },
+      "longitude": {
+        "ipapi.com": "-122.07431030273438"
+      }
+    },
+    "consistency": {
+      "country": {
+        "unique_values": 1,
+        "values": {
+          "ipapi.com": "United States (US)"
+        },
+        "is_consistent": true
+      },
+      "city": {
+        "unique_values": 1,
+        "values": {
+          "ipapi.com": "Mountain View (California)"
+        },
+        "is_consistent": true
+      },
+      "isp": {
+        "unique_values": 1,
+        "values": {
+          "ipapi.com": "Google"
+        },
+        "is_consistent": true
+      },
+      "latitude": {
+        "unique_values": 1,
+        "values": {
+          "ipapi.com": "37.38801956176758"
+        },
+        "is_consistent": true
+      },
+      "longitude": {
+        "unique_values": 1,
+        "values": {
+          "ipapi.com": "-122.07431030273438"
+        },
+        "is_consistent": true
+      }
+    },
+    "summary": {
+      "total_sources": 4,
+      "consistent_fields": 5,
+      "total_fields": 5
+    }
+  }
+}

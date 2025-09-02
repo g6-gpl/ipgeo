@@ -1,0 +1,92 @@
+{
+  "combined_data": {
+    "ip_address": "77.88.8.8",
+    "timestamp": 1756787273.713387,
+    "sources": {
+      "ipapi.com": {
+        "source": "ipapi.com",
+        "latitude": "55.73490905761719",
+        "longitude": "37.58903121948242",
+        "country": "Russia (RU)",
+        "city": "Moskva (Moskva)",
+        "zip": "119021",
+        "isp": "Edge Technology Plus d.o.o. Beograd",
+        "asn": "208398"
+      },
+      "ipinfo.io": {
+        "source": "ipinfo.io",
+        "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://ipinfo.io/77.88.8.8\", waiting until \"load\"\n"
+      },
+      "db-ip.com": {
+        "source": "db-ip.com",
+        "error": "Page.wait_for_selector: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator(\".ip-info-table\") to be visible\n"
+      },
+      "whatismyipaddress.com": {
+        "source": "whatismyipaddress.com",
+        "error": "Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://whatismyipaddress.com/ip/77.88.8.8\", waiting until \"load\"\n"
+      }
+    }
+  },
+  "comparison": {
+    "ip_address": "77.88.8.8",
+    "comparison": {
+      "country": {
+        "ipapi.com": "Russia (RU)"
+      },
+      "city": {
+        "ipapi.com": "Moskva (Moskva)"
+      },
+      "isp": {
+        "ipapi.com": "Edge Technology Plus d.o.o. Beograd"
+      },
+      "latitude": {
+        "ipapi.com": "55.73490905761719"
+      },
+      "longitude": {
+        "ipapi.com": "37.58903121948242"
+      }
+    },
+    "consistency": {
+      "country": {
+        "unique_values": 1,
+        "values": {
+          "ipapi.com": "Russia (RU)"
+        },
+        "is_consistent": true
+      },
+      "city": {
+        "unique_values": 1,
+        "values": {
+          "ipapi.com": "Moskva (Moskva)"
+        },
+        "is_consistent": true
+      },
+      "isp": {
+        "unique_values": 1,
+        "values": {
+          "ipapi.com": "Edge Technology Plus d.o.o. Beograd"
+        },
+        "is_consistent": true
+      },
+      "latitude": {
+        "unique_values": 1,
+        "values": {
+          "ipapi.com": "55.73490905761719"
+        },
+        "is_consistent": true
+      },
+      "longitude": {
+        "unique_values": 1,
+        "values": {
+          "ipapi.com": "37.58903121948242"
+        },
+        "is_consistent": true
+      }
+    },
+    "summary": {
+      "total_sources": 4,
+      "consistent_fields": 5,
+      "total_fields": 5
+    }
+  }
+}
